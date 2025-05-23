@@ -1,0 +1,73 @@
+.game-container h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: brown;
+}
+
+.game-container{
+    /* background-image: url(./Images/11060986_47784.jpg); */
+    background-image: url(./Images/33891963_2210.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 3px 3px;
+}
+
+.game-container{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.dropboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 70px;
+    padding-bottom: 30px;
+}
+
+.dropboxes p {
+    margin-top: -0.1%;
+    font-family: cursive;
+}
+
+.dropbox{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #aaa;
+    background-color: #f0f8ff;
+    transition: background-color 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropbox:hover{
+    background-color: #ccf2ff;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.images img{
+    width: 150px;
+    margin: 10px;
+    cursor: grab;
+    border-radius: 10px;
+}

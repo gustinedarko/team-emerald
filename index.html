@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+    <title>Emerald Drag and Drop</title>
+</head>
+
+<body>
+    <section class="game-container">
+        <h1>Emerald Drag and Drop</h1>
+        <div class="dropboxes">
+            <div>
+                <div class="dropbox" id="apple" data-accept="Apple" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <p>APPPLE</p>
+            </div>
+            <div>
+                <div class="dropbox" id="bird" data-accept="Bird" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <p>BIRD</p>
+            </div>
+            <div>
+                <div class="dropbox" id="cup" data-accept="Cup" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <p>CUP</p>
+            </div>
+            <div>
+                <div class="dropbox" id="doughnut" data-accept="Doughnut" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <p>DOUGHNUT</p>
+            </div>
+            
+        </div>
+        <div class="images">
+            <img src="./Images/LetterC.jpg" id="Cup" draggable="true" ondragstart="dragStart(event)">
+            <img src="./Images/LetterB.jpg" id="Bird" draggable="true" ondragstart="dragStart(event)">
+            <img src="./Images/LetterA.jpg" id="Apple" draggable="true" ondragstart="dragStart(event)">
+            <img src="./Images/LetterD.jpg" id="Doughnut" draggable="true" ondragstart="dragStart(event)">
+        </div>
+    </section>
+</body>
+
+</html>
